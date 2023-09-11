@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.top-text{
+    background-color: #BF2539;
+    color: #fff;
+    font-weight: 200;
+    font-size: 14px;
+    padding-left: 50px;
+    height: 40px;
+    padding-top: 10px;
+}
+.top-text .top-icon{
+    margin-right: 50px;
+}
+.top-text .top-icon .fa{
+margin: 0 10px;
+
+}
+.navbar{
+    background: #007EB4!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    transition: 0.3s;
+    }
+.navbar .navbar-brand{
+    color: #fff!important;
+    padding-left: 15px;
+    font-family: Segoe UI Black;
+    letter-spacing: 0.5px;
+}
+.navbar .nav-item{
+    color: #fff!important;
+    margin: 0px 2px;
+    font-weight: 400;
+    }
+    .navbar .nav-item .nav-link{
+        color: #fff!important;
+        font-size: 16.5px;
+        letter-spacing: 0.3px;
+    }
+    .navbar .nav-item .nav-link:hover{
+        color: #FACAC8!important;
+    }
+    .icon .fa{
+        color: #042C41;
+        font-size: 17px;
+        margin: 0 15px;
+    }
+    .icon .fa:hover{
+        color: #FACAC8!important;
+    }
+    .button-1{
+        border-radius: 50px;
+        height: 40px;
+        width: 170px;
+        border: 1px solid #fff;
+        background: transparent;
+        margin-left: 5px;   
+    }
+    .button-1:hover{
+        background-color: #EF2C1E!important;
+        border: 0px!important;
+        transition: none!important;
+        box-shadow: 1px 1px 10px #e47676!important;
+    }
+    .button-1 .btn{
+        color: #fff!important;
+        font-size: 15px!important;
+        text-align: center;
+        padding: 6px 24px;
+        font-weight: 600;
+    }
+    .button-1 .fa{
+        padding-right: 5px;
+        font-size: 15px;
+    
+    }
+
+
+
+.header{
+    background-color: #D82138;
+    height: 100px;
+    color: #fff;
+}
+.header h2{
+    width: 500px;
+    margin-left: 60px;
+    line-height: 35px;
+    padding-top: 10px;
+
+}
+.Header-images{
+    height: 480px;
+    background-color: #57A9C4;
+    background-image: url("../images/banner-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Header-images h2{
+    font-size: 55px;
+    color: #fff;
+    padding-top: 100px;
+    font-family: Segoe UI Black;
+    text-shadow: 2px 2px 10px rgba(8, 0, 0, 0)!important;
+}
+.Header-images h2 .yellow{
+color: #e6e61b;
+font-family: Segoe UI Black;
+}
+.Header-images p{
+    font-size: 18px;
+    color: #D4EBF6;
+}
+.Header-images .btn{
+    border: 2px solid #fff;
+    color: #fff;
+    width: 160px;
+    border-radius: 10px;
+}
+.virus-header{
+height: 200px;
+background-color: #D4EBF6;
+position: relative;
+
+}
+.virus-header h2{
+    font-size: 60px;
+    color: #042c41;
+    font-family: Roboto;
+    padding-top: 25px!important;
+   font-family: Segoe UI Black;
+}
+.virus-header p{
+    font-size: 18px;
+    color: #042c41;
+    width: 1100px;
+    text-align: center!important;
+    margin-left: 110px;
+    font-family: Montserrat;
+}
+.virus{
+    height: 500px;
+
+}
+.virus h3{
+    font-size: 30px;
+    padding-top: 60px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 45px;
+}
+.virus p{
+    color: #5F7D95;
+}
+.virus .btn{
+    color: #847A6C;
+    border: 2px solid #847A6C;
+    border-radius: 10px;
+    width: 150px;
+    font-family: Montserrat;
+    height: 40px;
+    margin-right: 10px;
+
+}
+.virus .btn:hover{
+    color: #03212e;
+    font-weight: 500;
+}
+.virus .btn-1{
+    color: #847A6C;
+    border: 2px solid #847A6C;
+    border-radius: 10px;
+    width: 200px;
+    font-family: Montserrat;
+    height: 40px;
+    margin-top: 5px;
+
+}
+.virus .btn-1:hover{
+    color: #03212e;
+    font-weight: 500;
+}
+
+/********************************* symptom *********************************/
+.symton-covid{
+    /* height: 800px; */
+}
+.symton-covid h3{
+    font-size: 45px;
+    font-weight: bold;
+    color: #042C41;
+    font-family: Segoe UI Black;
+}
+.symton-covid h3 .mid{
+    font-size: 45px;
+    font-weight: bold;
+    color: #007EB4;
+    font-family: Segoe UI Black;
+}
+
+.symton-covid p{
+    color: #7D7D95;
+    padding-top: 10px;
+   
+}
+.Symptom{
+    margin: 60px 0px;
+}
+.Symptom .col-md-2 .pic{
+background-color: #F1F1F1;
+height: 160px;
+width: 140px;
+position: relative;
+padding-top: 30px;
+border-radius: 20px;
+margin-left: 15px;
+}
+.Symptom .col-md-2 .pic:hover{
+    box-shadow: 2px 2px 10px #c8d0d6;
+}
+.Symptom .col-md-2 .pic-2{
+    background-color: #F1F1F1;
+    height: 160px;
+    width: 140px;
+    position: relative;
+    padding-top: 30px;
+    margin-top: 80px;
+    border-radius: 20px;
+    margin-left: 15px;
+    }
+    .Symptom .col-md-2 .pic-2:hover{
+        box-shadow: 2px 2px 10px #c8d0d6;
+    }
+.Symptom p{
+    padding-top: 10px;
+    font-family: Montserrat;
+}
+/********************************* symptom *********************************/
+.doctor{
+    height: 330px;
+    background-color: #57A9C4;
+    background-image: url("../images/banner-4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.doctor .doc-header .btn-3{
+    color: #847A6C;
+    border: 2px solid #847A6C;
+    border-radius: 10px;
+    width: 230px;
+    height: 40px;
+    font-family: Montserrat;
+    margin-top: 15px;
+}
+.doctor .doc-header .btn-3:hover{
+    background-color: #e6d6d6;
+    color: red;
+}
+.doctor .doc-header h2{
+    padding-top: 40px;
+    font-size: 42px;
+    font-weight: bold;
+    color: #3C4245;
+    font-family: Segoe UI Black;
+}
+.doctor .col-md-8 p{
+    color: #647D95;
+}
+
+
+.attacked{
+    height: 450px;
+    padding-top: 60px;
+}
+.attacked .container .attack-header h2{
+font-size: 35px;
+font-weight: bold;
+}
+.attacked .row .number h1{
+    font-size: 45px;
+    font-family: Roboto;
+    color: #32C78E;
+    padding-top: 50px;
+}
+.attacked .row .number p{
+    color: #CA8152;
+    font-size: 18px;
+}
+
+
+
+
+.protect h3{
+    font-size: 45px;
+    font-weight: bold;
+    color: #042C41;
+    font-family: Segoe UI Black;
+}
+.protect h3 .mid{
+    font-size: 45px;
+    font-weight: bold;
+    color: #007EB4;
+    font-family: Segoe UI Black;
+    text-shadow: 2px 2px 10px rgba(8, 0, 0, 0)!important;
+}
+.protect p{
+    padding-top: 20px;
+    color: #647D95;;
+}
+.protect-step{
+    margin-top: 30px;
+}
+.protect-step .col-md-2 .pic{
+    background-color: #F1F1F1;
+    height: 160px;
+    width: 140px;
+    position: relative;
+    padding-top: 30px;
+    border-radius: 20px;
+    margin-left: 15px;
+    }
+.protect-step .col-md-2 .pic:hover{
+        box-shadow: 2px 2px 10px #c8d0d6;
+    }
+    .protect-step .col-md-2 .pic-2{
+        background-color: #F1F1F1;
+        height: 160px;
+        width: 140px;
+        position: relative;
+        padding-top: 30px;
+        margin-top: 80px;
+        border-radius: 20px;
+        margin-left: 15px;
+        }
+.protect-step .col-md-2 .pic-2:hover{
+        box-shadow: 2px 2px 10px #c8d0d6;
+        }
+.protect-step p{
+        padding-top: 10px;
+        font-family: Montserrat;
+    }
+
+
+
+    .vaccin{
+        height: 450px;
+        background-color: #E3E9ED;
+    }
+    .vaccin .vaccin-header h3{
+        font-size: 35px;
+        font-weight: bold;
+        color: ;
+        padding-top: 10px;
+    }
+    .vaccin .btn{
+    background-color: #32C78E;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    font-family: Montserrat;
+    margin-top: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+        height: 400px;
+        width: 100%;
+        background-color: #007EB4;
+    }
+.footer .down h3{
+    font-weight: bold;
+    color: #fff;
+    }
+.footer .down p{
+        color: #fff;
+        }
+.footer .jpg img{
+           margin: 60px 60px;
+            }
+.footer .jpg p{
+    padding-left: 50px;
+    margin-top: -50px;
+    color: #CA8152;
+    font-size: 28px;
+}
+.footer-end{
+        height: 70px;
+        background-color: #20313B;
+    }
+    .footer-end .row p{
+        color: #A8A8A8;
+       
+    }
+.footer-end .row .fa{
+    color: #fff;
+    margin: 0 13px;
+}
+.footer-end .row .fa:hover{
+    color: yellow;
+}

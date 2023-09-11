@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.animate{
+    margin-left: 100px;
+    margin-top: -80px;
+    align-items: right;
+    position: relative;
+    animation: animate 10s linear infinite;
+  }
+  @keyframes animate {
+      0%  {left:0px; top:75px;}
+      50%  {left:0px; top:100px;}
+      0%  {left:0px; top:75px;}
+      100%  {left:0px; top:75px;}
+
+  }
+.loader{
+    /* background-color: chocolate; */
+    position: relative;
+    height: 350px;
+    width: 350px;
+    left: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(219, 159, 159);
+    animation: loader 50s linear infinite;
+}
+@keyframes loader{
+    form{
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+.loader .one{
+    position: absolute;
+    top: 130px;
+    left: -30px;
+    animation: one 50s linear infinite;
+    }
+    @keyframes one{
+        form{
+            transform: rotate(0deg);
+            filter: hue-rotate(0deg);
+        }
+        to{
+            transform: rotate(-360deg);
+            filter: hue-rotate(-360deg);
+        }
+    }
+
+    .loader .two{
+        position: absolute;
+        top: 20px;
+        left: 22px;
+        animation: two 50s linear infinite;
+        }
+        @keyframes two{
+            form{
+                transform: rotate(0deg);
+                filter: hue-rotate(0deg);
+            }
+            to{
+                transform: rotate(-360deg);
+                filter: hue-rotate(-360deg);
+            }
+        }
+
+        .loader .three{
+            position: absolute;
+            top: -28px;
+            left: 145px;
+            animation: three 50s linear infinite;
+            }
+            @keyframes three{
+                form{
+                    transform: rotate(0deg);
+                    filter: hue-rotate(0deg);
+                }
+                to{
+                    transform: rotate(-360deg);
+                    filter: hue-rotate(-360deg);
+                }
+            }
+
+            .loader .four{
+                position: absolute;
+                top: 25px;
+                left: 270px;
+                animation: four 50s linear infinite;
+                }
+                @keyframes four{
+                    form{
+                        transform: rotate(0deg);
+                        filter: hue-rotate(0deg);
+                    }
+                    to{
+                        transform: rotate(-360deg);
+                        filter: hue-rotate(-360deg);
+                    }
+                }
+
+                .loader .five{
+                    position: absolute;
+                    top: 130px;
+                    left: 315px;
+                    animation: five 50s linear infinite;
+                    }
+                    @keyframes five{
+                        form{
+                            transform: rotate(0deg);
+                            filter: hue-rotate(0deg);
+                        }
+                        to{
+                            transform: rotate(-360deg);
+                            filter: hue-rotate(-360deg);
+                        }
+                    }
+
+                    .loader .six{
+                        position: absolute;
+                        top: 250px;
+                        left: 276px;
+                        animation: six 50s linear infinite;
+                        }
+                        @keyframes six{
+                            form{
+                                transform: rotate(0deg);
+                                filter: hue-rotate(0deg);
+                            }
+                            to{
+                                transform: rotate(-360deg);
+                                filter: hue-rotate(-360deg);
+                            }
+                        }
+                        .loader .seven{
+                            position: absolute;
+                            top: 314px;
+                            left: 150px;
+                            animation: seven 50s linear infinite;
+                            }
+                            @keyframes seven{
+                                form{
+                                    transform: rotate(0deg);
+                                    filter: hue-rotate(0deg);
+                                }
+                                to{
+                                    transform: rotate(-360deg);
+                                    filter: hue-rotate(-360deg);
+                                }
+                            }
+
+                            .loader .eight{
+                                position: absolute;
+                                top: 255px;
+                                left: 15px;
+                                animation: eight 50s linear infinite;
+                                }
+                                @keyframes eight{
+                                    form{
+                                        transform: rotate(0deg);
+                                        filter: hue-rotate(0deg);
+                                    }
+                                    to{
+                                        transform: rotate(-360deg);
+                                        filter: hue-rotate(-360deg);
+                                    }
+                                }
+.col-lg-6 .man{
+    position: absolute;
+    top: 100px;
+    left: 175px;
+
+}
